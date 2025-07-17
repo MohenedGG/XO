@@ -46,23 +46,23 @@ function winner() {
         start = false;
         end = true;
     } else if (valus[2] === valus[5] && valus[2] === valus[8] && squares[2].classList.contains("active")) {
-        title.innerHTML = `${valus[0]} is the winner`
+        title.innerHTML = `${valus[2]} is the winner`
         start = false;
         end = true;
     } else if (valus[8] === valus[7] && valus[7] === valus[6] && squares[8].classList.contains("active")) {
-        title.innerHTML = `${valus[0]} is the winner`
+        title.innerHTML = `${valus[8]} is the winner`
         start = false;
         end = true;
     } else if (valus[1] === valus[4] && valus[4] === valus[7] && squares[1].classList.contains("active")) {
-        title.innerHTML = `${valus[0]} is the winner`
+        title.innerHTML = `${valus[4]} is the winner`
         start = false;
         end = true;
     } else if (valus[3] === valus[4] && valus[4] === valus[5] && squares[3].classList.contains("active")) {
-        title.innerHTML = `${valus[0]} is the winner`
+        title.innerHTML = `${valus[4]} is the winner`
         start = false;
         end = true;
     } else if (valus[2] === valus[4] && valus[6] === valus[4] && squares[4].classList.contains("active")) {
-        title.innerHTML = `${valus[0]} is the winner`
+        title.innerHTML = `${valus[2]} is the winner`
         start = false;
         end = true;
     } else if (valus.every(element => element === `X` || element === `O`)) {
