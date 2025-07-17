@@ -61,7 +61,7 @@ function winner() {
         title.innerHTML = `${valus[0]} is the winner`
         start = false;
         end = true;
-    } else if (valus[8] === valus[4] && valus[0] === valus[4] && squares[0].classList.contains("active")) {
+    } else if (valus[2] === valus[4] && valus[6] === valus[4] && squares[4].classList.contains("active")) {
         title.innerHTML = `${valus[0]} is the winner`
         start = false;
         end = true;
